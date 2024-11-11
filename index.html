@@ -7,8 +7,32 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="icon" href="data:,">
     <script type="module" src='./scripts/main.js'></script>
+    <style>
+        .encabezado
+        {
+            background-color: darkcyan;
+            padding: 15px;
+            margin: 10px;
+            height: 40px;
+            font-family: Times New Roman, sans-serif;
+            text-align: left;
+            align-items: center;
+        }
+    </style>
 </head>
 <body>
-    <h1>Proyecto TypeScript</h1>
+    <div class="encabezado">
+        <p><strong>TV Series</strong></p>
+    </div>
+    <table class="table" id="serie">
+        <thead class="thead-dark">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Canales</th>
+                <th>Temporadas</th>
+            </tr>
+        </thead>
+    </table>
 </body>
 </html>
